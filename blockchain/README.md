@@ -17,3 +17,10 @@ npx hardhat run scripts/deploy.ts
 ALCHEMY_KEY="Add your HTTPS API Key"
 META_MASK_PRIVATE_API_KEY="Export your wallet Key"
 ```
+
+### Learning Resources
+
+Some of issues I resolved and learned from
+
+- [Not found: File import callback not supported](https://stackoverflow.com/questions/72013828/source-openzeppelin-contracts-token-erc721-erc721-sol-not-found-file-import)
+- [Error: EISDIR: illegal operation on a directory, read](https://github.com/NomicFoundation/hardhat/issues/1439)
