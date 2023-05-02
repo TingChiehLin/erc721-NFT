@@ -4,9 +4,9 @@ async function main() {
   const SpiderCoin = await ethers.getContractFactory("SpiderCoin");
 
   const spiderCoin = await SpiderCoin.deploy();
-  await spiderCoin.deployed()
+  await spiderCoin.deployed();
 
-  console.log("Contract deployed successfully to address:", spiderCoin.adress)
+  console.log("Contract deployed successfully to address:", spiderCoin.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
