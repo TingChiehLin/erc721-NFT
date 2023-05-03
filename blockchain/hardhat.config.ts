@@ -14,6 +14,9 @@ const config: HardhatUserConfig = {
       chainId: 11155111,
     },
   },
+  paths: {
+    artifacts: "../frontend/artifacts",
+  },
 };
 
 export default config;

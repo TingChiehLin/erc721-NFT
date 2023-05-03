@@ -11,12 +11,20 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
-## Remember to create ``.env file``
+
+## Remember to create `.env file`
 
 ```shell
 ALCHEMY_KEY="Add your HTTPS API Key"
 META_MASK_PRIVATE_API_KEY="Export your wallet Key"
 ```
+
+### Testnet - Sepolia
+
+```shell
+//run Sepolia Testnet on the blockchain folder
+npx hardhat run scripts/deploy.ts --network sepolia
+``
 
 ### Learning Resources
 
@@ -24,3 +32,4 @@ Some of issues I resolved and learned from
 
 - [Not found: File import callback not supported](https://stackoverflow.com/questions/72013828/source-openzeppelin-contracts-token-erc721-erc721-sol-not-found-file-import)
 - [Error: EISDIR: illegal operation on a directory, read](https://github.com/NomicFoundation/hardhat/issues/1439)
+```
