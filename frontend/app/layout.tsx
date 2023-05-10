@@ -14,8 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="relative">
       <body className={inter.className}>{children}</body>
+      <footer className="w-full h-12 bg-sky-900 absolute bottom-0 flex justify-center items-center text-gray-300">
+        erc-721
+      </footer>
     </html>
   );
 }
